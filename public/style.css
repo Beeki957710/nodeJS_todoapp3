@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+form {
+    background-color:  bisque;
+    width: 450px;
+    height: 300px;
+    display: block;
+    margin-top: 200px;
+    margin-left: 550px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+ 
+h1 {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+input,button {
+    display: block;
+    margin: auto;
+    height: 30px;
+    border-radius: 0.3rem;
+}
+
+#inp1 {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+
+#inp2 {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#psw {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+
+ 
+button {
+    width: 200px;
+}
+
+
+.error{
+    color: red;
+    margin: 1rem;
+    text-align: right;
+    font-size: 0.8rem;
+}
